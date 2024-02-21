@@ -1,0 +1,156 @@
+{
+    "Description": {
+        "Id": "AbilityDefOmegaReaper",
+        "Name": "Reaper Buff",
+        "Details": "Seasons don't fear the Reaper. You should.",
+        "Icon": "UixSvgIcon_specialAbility_BWCL"
+    },
+    "Type": "Command",
+    "ShortDesc": "Reaper Heat and Resolve bonuses",
+    "DisplayParams": "NeverShow",
+    "ActivationTime": "Passive",
+    "EffectData": [
+        {
+            "Description": {
+                "Id": "StatusEffect-Reaper-HeatGen",
+                "Name": "Reaper HeatGen Buff",
+                "Details": "Reaper improved HeatGen [AMT].",
+                "Icon": "uixSvgIcon_equipment_HeatBank"
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": true,
+                "showInStatusPanel": true,
+                "hideApplicationFloatie": true
+            },
+            "statisticData": {
+                "statName": "HeatGenerated",
+                "operation": "Float_Multiply",
+                "modValue": "0.90",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            }
+        },
+        {
+            "Description": {
+                "Id": "StatusEffect-Reaper-MaxHeat",
+                "Name": "Reaper MaxHeat Buff",
+                "Details": "Reaper improved MaxHeat [AMT].",
+                "Icon": "uixSvgIcon_equipment_HeatBank"
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": true,
+                "showInStatusPanel": true,
+                "hideApplicationFloatie": true
+            },
+            "statisticData": {
+                "statName": "MaxHeat",
+                "operation": "Int_Add",
+                "modValue": "20",
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            }
+        },
+        {
+            "Description": {
+                "Id": "StatusEffect-Reaper-DamageReduction",
+                "Name": "Reaper Damage Reduction",
+                "Details": "Reapers take [AMT] less damage.",
+                "Icon": "UixSvgIcon_specialAbility_BWCL"
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": true,
+                "showInStatusPanel": true,
+                "hideApplicationFloatie": true
+            },
+            "statisticData": {
+                "statName": "DamageReductionMultiplierAll",
+                "operation": "Float_Multiply",
+                "modValue": "0.8",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            }
+        },
+        {
+            "Description": {
+                "Id": "StatusEffect-Reaper-Resolve",
+                "Name": "Reaper Resolve Buff",
+                "Details": "Reapers have +2 resolve.",
+                "Icon": "UixSvgIcon_specialAbility_BWCL"
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": true,
+                "showInStatusPanel": true,
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "hideApplicationFloatie": true
+            },
+            "statisticData": {
+                "statName": "MoraleBonusGain",
+                "operation": "Int_Add",
+                "modValue": "2",
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            }
+        }
+    ]
+}
