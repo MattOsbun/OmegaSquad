@@ -27,7 +27,9 @@
     "Incapacitated": false,
     "Morale": 0,
     "Voice": "m_pro05_rick",
-    "abilityDefNames": [],
+    "abilityDefNames": [
+        "AbilityDefDemonsFist"
+    ],
     "AIPersonality": "Undefined",
     "PilotTags": {
         "items": [
