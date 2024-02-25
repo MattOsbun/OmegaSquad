@@ -12,6 +12,7 @@
         { "Type": "Sprite", "Path": "sprite" },	
         { "Type": "Texture2D", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
         { "Type": "Sprite", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
-		{ "Type": "AbilityDef", "Path": "abilities", "AddToDB":true }	
+		{ "Type": "AbilityDef", "Path": "abilities", "AddToDB":true }	,
+		{ "Type": "SimGameEventDef", "Path": "events" }
     ]
 }
