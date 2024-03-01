@@ -2,7 +2,7 @@
 	"Description" : {
 		"Id" : "AbilityDefDemonsFist",
 		"Name" : "Demon's Fist",
-		"Details" : "PASSIVE: Belphegor's ballistic attacks hit especially hard",
+		"Details" : "PASSIVE: Moloch's ballistic attacks hit especially hard",
 		"Icon" : "UixSvgIcon_specialAbility_HiredGuns"
 	},
 	"Type" : "Command",
@@ -13,9 +13,9 @@
 	[
 		{
             "Description" : {
-                "Id" : "StatusEffect-BEL-DemonsFistStructureDamage",
+                "Id" : "StatusEffect-MOL-DemonsFistStructureDamage",
                 "Name" : "Demon's Fist",
-                "Details" : "The Bounty Hunter's attacks bypass armor and deal structure damage to the target.",
+                "Details" : "Moloch's attacks bypass armor and deal structure damage to the target.",
                 "Icon" : "UixSvgIcon_specialAbility_HiredGuns"
             },
             "effectType" : "StatisticEffect",
@@ -44,7 +44,7 @@
         },
 		{
             "Description" : {
-                "Id" : "StatusEffect-BEL-DemonsFistAttackFloatie",
+                "Id" : "StatusEffect-MOL-DemonsFistAttackFloatie",
                 "Name" : "Demon's Fist",
                 "Details" : "Demon's Fist",
                 "Icon" : "UixSvgIcon_specialAbility_HiredGuns"
@@ -73,7 +73,7 @@
         },
 		{
             "Description" : {
-                "Id" : "StatusEffect-BEL-PerfectAimHitFloatie",
+                "Id" : "StatusEffect-MOL-PerfectAimHitFloatie",
                 "Name" : "ARMOR BYPASSED",
                 "Details" : "ARMOR BYPASSED",
                 "Icon" : "UixSvgIcon_specialAbility_BWCL"
@@ -102,9 +102,9 @@
         },
 		{
             "Description" : {
-                "Id" : "StatusEffect-BEL-InstabilityDamage",
+                "Id" : "StatusEffect-MOL-InstabilityDamage",
                 "Name" : "Instability Damage",
-                "Details" : "Belphegor's ballistic shots hit harder than usual.",
+                "Details" : "Moloch's ballistic shots hit harder than usual.",
                 "Icon" : "UixSvgIcon_specialAbility_BWCL"
             },
             "effectType" : "StatisticEffect",

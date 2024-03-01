@@ -6,7 +6,7 @@
         "Icon" : "uixTxrSpot_Gym.png"
     },
     "Scope" : "MechWarrior",
-    "Weight" : 10,
+    "Weight" : 50,
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {

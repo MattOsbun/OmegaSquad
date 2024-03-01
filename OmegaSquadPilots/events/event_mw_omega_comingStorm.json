@@ -6,7 +6,7 @@
         "Icon" : "uixTxrSpot_IncomingTransimission.png"
     },
     "Scope" : "MechWarrior",
-    "Weight" : 40,
+    "Weight" : 50,
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {

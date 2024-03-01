@@ -2,13 +2,13 @@
     "Description": {
         "Id": "pilot_Belphegor",
         "Name": "Belphegor",
-        "FirstName": "Nigel",
-        "LastName": "Mitchell",
+        "FirstName": "Hartmut",
+        "LastName": "Nachtnebel",
         "Callsign": "Belphegor",
         "Gender": "Male",
         "factionID": "Davion",
         "Age": "28",
-        "Details": "Classified - Commander Eyes Only",
+        "Details": "While there's little known about Hartmut's past, and he certainly doesn't volunteer anything, the name gives him away. The Steiner merchant family Nachtnebel has fallen in disgrace, due to the actions of an unnamed son who would be about Hartmut's age...\r\n\r\n While Hartmut is diligent in his duties, he always seem to be able to convince others into activities, productive or not, that lead them away from their own assignments. While not disruptive, it's clearly not accidental, either.",
         "Icon": "pilot_Belphegor"
     },
     "BaseGunnery": "3",
@@ -27,7 +27,9 @@
     "Incapacitated": false,
     "Morale": 0,
     "Voice": "m_pro03_brit",
-    "abilityDefNames": [],
+    "abilityDefNames": [
+        "AbilityDefSlothMeister"
+    ],
     "AIPersonality": "Undefined",
     "PilotTags": {
         "items": [
